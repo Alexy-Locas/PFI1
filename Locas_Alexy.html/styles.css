@@ -1,0 +1,201 @@
+.fondCell{
+    background-color: rgba(0, 0, 0, 0.897);
+    height: auto;
+}
+.fondAcc{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/020/326/034/large/shafiq-lee-bnr34-under.jpg?1567353802);
+    background-repeat: no-repeat;
+}
+
+.fondMod{
+    background-image: url(https://i.pinimg.com/originals/b7/17/67/b71767332dbb6d3d4ebfba6d1a7707ca.jpg);
+    /*background-repeat: no-repeat;*/
+
+}
+.fondVid{
+    background-image: url(https://i.pinimg.com/originals/e5/7e/ff/e57eff80dd112809f729567b46dde08f.jpg);
+    background-repeat: no-repeat;
+
+}
+.fondCred{
+    background-image: url(https://cars-to-desktop.com/thumb/backgrounds/nissan-silvia-s15-night.jpg);
+    background-repeat: no-repeat;
+
+}
+.fondDef{
+    background-image: url(https://preview.redd.it/jkj59xu0psy51.png?auto=webp&s=c6ee9cda9096c213fab0d558367ab887f2c2c3ba);
+    background-repeat:space;
+
+}
+.fondIcones{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/019/517/424/large/samuel-felix-eugene-martono-night-v09.jpg?1563856219);
+    /*background-repeat: no-repeat;*/
+
+
+
+}
+
+.barreNoire{
+background-color: black;
+color: blueviolet;
+margin-top: 0px;
+text-align: center;
+width: 100px;
+/*padding-left: 25%;*/
+margin-left: 0;
+}
+.titres{
+
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(112, 204, 7);
+    padding-left: 10px;
+}
+.texte{
+    font-size: 25px;
+    font-family: 'Josefin Sans', cursive;
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: rgb(112, 204, 7);
+}
+.images{
+    width: 100%;
+    height: 25%;
+    background-repeat: no-repeat;
+}
+.enum{
+    text-align: center;
+    margin-top: 1%;
+}
+a {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: block;
+    width: 125px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left:0px;
+
+}
+
+.li {
+    float: left;
+    background-color:rgb(0, 0, 0);
+width:150px;
+
+}
+
+ul {
+    padding-top: 0px;
+    margin-top: 0px;
+    list-style: none;
+}
+
+a {
+    display: block;
+    width: 150px;
+    color: rgba(102, 79, 79, 0.685);
+    background-color: rgba(0, 0, 0, 0.336);
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+}
+a:hover {
+    color: rgb(162, 0, 255);
+    background-color: rgba(0, 0, 0, 0.295);
+}
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(255, 4, 4);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(49, 17, 17);
+}
+.divMenu {
+display:none;
+/*background-color:#ccc;*/
+}
+li:hover div {
+display:block;
+} 
+
+
+@media all and (min-width: 700px){
+    .fondCell{
+        background-color: rgba(0, 0, 0, 0.897);
+        height: auto;
+    }
+    .fondAcc{
+        background-image: url(https://i.redd.it/fmmoyy1cq8861.jpg);
+        background-repeat: no-repeat;
+        width: auto;
+    }
+    
+    .fondMod{
+        background-image: url(https://i.pinimg.com/originals/b7/17/67/b71767332dbb6d3d4ebfba6d1a7707ca.jpg);
+        /*background-repeat: no-repeat;*/
+        background-size: cover;
+        object-fit: fill;
+    }
+    .fondVid{
+        background-image: url(https://i.pinimg.com/originals/e5/7e/ff/e57eff80dd112809f729567b46dde08f.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: fill;
+    }
+    .fondCred{
+        background-image: url(https://cars-to-desktop.com/thumb/backgrounds/nissan-silvia-s15-night.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: fill;
+    }
+    .fondDef{
+        background-image: url(https://preview.redd.it/jkj59xu0psy51.png?auto=webp&s=c6ee9cda9096c213fab0d558367ab887f2c2c3ba);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: fill;
+    }
+    
+    .barreNoire{
+    background-color: black;
+    color: blueviolet;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 90%;
+    /*padding-left: 25%;*/
+    }
+    .titres{
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(112, 204, 7);
+    }
+}
+
+@media (max-width: 850px){
+    .titres{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(112, 204, 7);
+    }
+}
