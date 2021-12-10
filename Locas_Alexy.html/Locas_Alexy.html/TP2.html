@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .favoris{
+        color: white;
+        font-size: 41px;
+        margin-left: 40px;
+    }
+    .fleche{
+
+        margin-left: 20px;
+    }
+    .flecheJeux{
+     margin-left: 60px;
+    }
+    .flecheSous{
+     margin-left: 75px;
+    }
+    .flecheSousM{
+     margin-left: 55px;
+    }
+    .flecheCon{
+
+margin-left: 28px;
+}
+    .icon{
+        width: 25px;
+        height: 25px;
+        width: 25px;
+        margin: 0px;
+        margin-right: 2px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: fill;
+       overflow:hidden;
+
+        
+    }
+    .fond {
+        background-image: url("images/Fond.png");
+        background-repeat: no-repeat;
+        width: auto;
+    }
+
+    li {
+        display: block;
+        position: relative;
+        width: 100px;
+
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    ul.sous_menu {
+        display: none;
+        
+    }
+
+    li:hover {
+        color: rgb(0, 255, 255);
+        background-color: rgba(0, 0, 255, 0.2);
+    }
+    a:hover{
+        color: rgb(0, 255, 255);
+    }
+
+    li:hover > ul.sous_menu {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 60%;
+    }
+
+    .box {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 6px;
+        margin: 0px;
+        font-size: 20px;
+        height: 30px;
+        width: 150px;
+        user-select: none;
+        text-decoration: none;
+    }
+
+    .box2 {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 30px;
+        width: 160px;
+        border-radius: 10px;
+        padding: 6px;
+        margin: 6px;
+        margin-left: 40px;
+        font-size: 20px;
+        user-select: none;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        user-select: none;
+    }
+
+</style>
+
+<body class="fond">
+    <h1 class="favoris">Favoris</h1>
+    <ul class="li">
+        <li class="box"><img class=" icon" src="images/music_icon.png" alt=""> Musiques <img class=" fleche" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li class="box2">Rock</li>
+                <li class="box2">Jazz <img class="flecheSous" src="images/ICON_submenu.png" alt=">">
+                    <ul class="sous_menu">
+                        <li class="box2">Pat Metheney</li>
+                        <li class="box2">Miles Davis</li>
+                        <li class="box2">UZEB <img class="flecheSous"src="images/ICON_submenu.png" alt=">">
+                            <ul class="sous_menu">
+                                <li class="box2">Alain Caron</li>
+                                <li class="box2">Michel Cusson</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="box2">Latin</li>
+                <li class="box2">Blues</li>
+                <li class="box2">Metal</li>
+                <li class="box2">Classic</li>
+                <li class="box2">Folk</li>
+            </ul>
+
+        </li>
+    </ul>
+    <ul class="li">
+        <li class="box"><img class=" icon" src="images/news_icon.png" alt="">Nouvelles <img  class=" fleche" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li class="box2"><a href="https://www.radio-canada.ca/" target="_blank"><img class=" icon" src="images/radio_canada_icon.png" alt=""> Radio-Canada</a></li>
+                <li class="box2"><a href="https://www.nbc.com/"><img class=" icon" src="images/nbc_icon.png" alt="">NBC news</a></li>
+                <li class="box2"><a href="https://www.cnn.com/"><img class=" icon" src="images/cnn_icon.png" alt="">CNN news</a></li>
+                <li class="box2"><img class=" icon" src="images/meteo_icon.png" alt="">Météo <img class="flecheSousM"src="images/ICON_submenu.png" alt=">">
+                    <ul class="sous_menu">
+                        <li class="box2">
+                            <a href="https://www.meteomedia.com/ca/meteo/quebec/sainte-therese"><img class=" icon" src="images/meteo_media_icon.png" alt="">Météomédia</a></li>
+                        <li class="box2"><a class="textDec"href="https://www.nhc.noaa.gov/"><img class=" icon" src="images/Hurricane_icon.png" alt="">Ouragan</a></li>
+                        <li class="box2"><a class="textDec"href="https://www.wunderground.com/wundermap/"><img class=" icon" src="images/wunder_icon.png" alt="">Wunder Ground</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    </li>
+    </ul>
+    <ul class="li">
+        <li class="box"><img class=" icon" src="images/game_icon.png" alt="">Jeux <img class=" flecheJeux" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li class="box2"><a href="http://zone.msn.com/en/backgammon/default.htm"><img class=" icon" src="images/backgammon_icon.png" alt="">Backgammon</a></li>
+                <li class="box2"><a href="https://www.mah-jongg.ch/reversi/reversi.html"><img class=" icon" src="images/reversi_icon.png" alt="">Revesi</a></li>
+
+
+            </ul>
+        </li>
+    </ul>
+
+    <ul class="li">
+        <li class="box"><img class=" icon" src="images/contact_icon.png" alt="">Contacts <img class=" flecheCon" src="images/ICON_submenu.png" alt=">">
+            <ul class="sous_menu">
+                <li class="box2"><a href="https://www.facebook.com/"><img class=" icon" src="images/facebook_icon.png" alt="">Facebook</a></li>
+                <li class="box2"><a href="https://twitter.com/"><img class=" icon" src="images/twitter_icon.png" alt="">Twitter</a></li>
+                <li class="box2"><a href="https://accounts.google.com/"><img class=" icon" src="images/google_plus_icon.png" alt="">Google+</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
